@@ -1,0 +1,45 @@
+.btn {
+   background-color: cornsilk;
+   border-radius: 5px;
+   height: 30px;
+   text-align: center;
+
+
+}
+.head1{
+    text-align: center;
+}
+.logo-text{
+    height: 70px;
+    width: 150px;
+    background-color: rgb(153, 161, 161);
+    border-radius: 6px;
+    margin-left: 550px;
+    margin-top: 30px;
+   
+}
+.body1{
+    text-align: center;
+    text-decoration: darkblue;
+    background-color: honeydew;
+}
+.card {
+    padding-top: 100px;
+    font: size 5px;
+    height: 300px;
+    width: 270px;
+    background-color: cornsilk;
+    display: inline-block;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 2rem;
+    border-color: gray;
+}
+.card img{
+    border-color: indigo;
+    border-radius: 50px;
+    text-align: center;
+}
+.card img:hover{
+    transform: scale(1.08);
+}
