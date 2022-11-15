@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js"></script>
+
+    </head>
+    <body>
+        <h1 align="center">CALCULATOR</h1>
+
+        <div>
+            <header id="screen"></header>
+            <table>
+<tr class="operators"><td onclick="clearScr()">AC</td><td onclick="sendNum('*0.01')">%</td><td onclick="sendNum('/')">/</td></tr>
+<tr class="operators"><td onclick="sendNum('+')">+</td><td onclick="sendNum('-')">-</td><td onclick="sendNum('*')">x</td></tr>
+<tr><td onclick="sendNum('7')">7</td><td onclick="sendNum('8')">8</td><td onclick="sendNum('9')">9</td></tr>
+<tr><td onclick="sendNum('4')">4</td><td onclick="sendNum('5')">5</td><td onclick="sendNum('6')">6</td></tr>
+<tr><td onclick="sendNum('1')">1</td><td onclick="sendNum('2')">2</td><td onclick="sendNum('3')">3</td></tr>
+<tr><td onclick="sendNum('.')">.</td><td onclick="sendNum('0')">0</td><td onclick="equalTo()">=</td></tr>
+            </table>
+        </div>
+    </body>
+    </html>

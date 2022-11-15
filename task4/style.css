@@ -1,0 +1,53 @@
+body{
+	background-color: bisque;
+}
+div{
+	background-color: #8ce23c;
+	margin: 50px;
+	width: 330px;
+	height: 470px;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+header{
+	background-color: #EEEEEE;
+	width: 330px;
+	height: 50px;
+	border-radius: 10px;
+	margin: 0 auto;
+	font-size: xx-large;
+	color: #000000;
+	text-align: center;
+
+}
+
+table{
+	background-color: #e0eba3;
+	margin: 0 auto;
+    padding-top: 10px;
+    margin-top: 10px;
+    height: 410px;
+	border-radius: 10px;
+    width: 330px;
+}
+
+td{
+	width: 110px;
+	height: 60px;
+	text-align: center;
+	font-size: xx-large;
+    cursor: pointer ;
+
+}
+
+.operators{
+	color: #e40f1a;
+}
+
+td:active{
+	background-color: #eeee14;
+	border-radius: 20px;
+}
+
